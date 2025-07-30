@@ -96,22 +96,6 @@ int main(){
         cout << "Sin ganancia ni pérdida." << endl;
     }
     
-    cout << "-------------------------------------------------" << endl;
-    cout << "        EJEMPLO DE USO DE LA FUNCIÓN" << endl;
-    cout << "-------------------------------------------------" << endl;
-    
-    // Demostracion de funcionamiento
-    cout << "Ejemplo con 10 unidades, costo Q5.0, precio Q7.5:" << endl;
-    cout << "Utilidad total: Q" << fixed << setprecision(1) << calcularUtilidad(10, 5.0, 7.5) << endl;
-    
-    cout << "\nOtros ejemplos:" << endl;
-    cout << "calcularUtilidad(5, 10.0, 15.0) = Q" << calcularUtilidad(5, 10.0, 15.0) << endl;
-    cout << "calcularUtilidad(20, 2.5, 4.0) = Q" << calcularUtilidad(20, 2.5, 4.0) << endl;
-    cout << "calcularUtilidad(8, 12.0, 10.0) = Q" << calcularUtilidad(8, 12.0, 10.0) << " (pérdida)" << endl;
-    
-    return 0;
-
-
 }
 
 
